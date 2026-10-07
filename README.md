@@ -1,47 +1,89 @@
-# Projeto Sistema Gestão Hospitalar e De Serviços de Saúde (SGHSS)
+# 🏥 SGHSS - Sistema de Gestão Hospitalar e de Serviços de Saúde
 
-Este projeto foi ministrado pela Uninter para formação do curso de ADS. É uma aplicação web com foco em gerenciamento básico de uma clínica hospitalar. O sistema permite
-que o usuário realize login, agende consultas, visualize consultas marcadas e acesso o prontuário do paciente.
+Projeto desenvolvido como **Trabalho de Conclusão de Curso (TCC)** da graduação em **Análise e Desenvolvimento de Sistemas pela UNINTER**.
 
-O objetivo central do projeto é demonstrar o uso de tecnologias front-end na criação de uma interface funcional, intuitiva e  visualmente organizada, simulando um ambiente de gestão hospitalar.
+O SGHSS é uma aplicação web desenvolvida para simular funcionalidades básicas de gerenciamento de uma clínica ou ambiente hospitalar.
 
-## Funcionalidades
-### Login
-  * Validação simples de email e senha.
-  * Mensagens de erro e sucesso exibidas dinamicamente.
-  * Simulação de autenticação (usuário:administrador@vidaplus.com, senha:123456).
+O sistema permite realizar login, agendar consultas, visualizar consultas cadastradas e acessar informações do prontuário do paciente.
 
-### Agendamento de Consultas
-  * Formulário para agendar consultas.
-  * Validações de campos obrigatórios.
-  * Salvamento local das informações.
+O objetivo do projeto é aplicar conceitos de **desenvolvimento front-end**, lógica de programação e manipulação de dados no navegador, criando uma interface funcional, organizada e intuitiva.
 
-### Consultas Agendadas
-  * Exibição em tabela.
-  * Dados carregados dinamicamente via JavaScript.
+---
 
-### Prontuário do Paciente
-  * Exibição de informações pré-cadastradas do paciente(nome, histórico, data de nascimento).
-  * Botão de edição para futuras implementações.
+## 🚀 Funcionalidades
 
-## Tecnologias Utilizadas
-### Frontend
-  * HTML5
-  * CSS3
-  * JavaScript
-  * Bootsatrap 5
-  * Boxicons
+### 🔐 Login
 
-## Melhorias Futuras
-  * Implementar login integrado ao banco de dados.
-  * Criar sistema de permissões(administrador, médico, atendente).
-  * Permitir cadastro completo de pacientes.
-  * Adicionar edição funcional do prontuário.
+- Validação de e-mail e senha.
+- Validação de campos obrigatórios.
+- Exibição dinâmica de mensagens de erro e sucesso.
+- Simulação de autenticação de usuário.
 
-## Autora
-Ana Beatriz De Lima Esper
-Desenvolvido como Trabalho de Conclusão de Curso(TCC).
+### 📅 Agendamento de Consultas
 
-## Licença
-Este projeto foi desenvilvido para fins educativos e acadêmicos.
-  
+- Formulário para agendamento de consultas.
+- Preenchimento das informações da consulta.
+- Validação de campos obrigatórios.
+- Armazenamento local das informações utilizando o navegador.
+
+### 📋 Consultas Agendadas
+
+- Exibição das consultas em formato de tabela.
+- Carregamento dinâmico das informações utilizando JavaScript.
+- Recuperação dos dados armazenados no navegador.
+
+### 🩺 Prontuário do Paciente
+
+- Exibição das informações do paciente.
+- Visualização de dados como nome, histórico e data de nascimento.
+- Integração com informações relacionadas às consultas.
+- Estrutura preparada para futuras funcionalidades de edição do prontuário.
+
+---
+
+## 🔐 Acesso para demonstração
+
+Para testar o login do sistema, podem ser utilizadas as seguintes credenciais fictícias:
+
+**E-mail:** administrador@vidaplus.com  
+**Senha:** 123456
+
+> As credenciais acima são fictícias e foram criadas exclusivamente para demonstração acadêmica do projeto.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+### Front-end
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Boxicons
+
+### Armazenamento
+
+- LocalStorage
+
+### Versionamento
+
+- Git
+- GitHub
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+Projeto-SGHSS-ads/
+│
+├── imagens/
+├── js/
+│
+├── index.html
+├── agendamento.html
+├── consulta.html
+├── prontuario.html
+├── style.css
+└── README.md
